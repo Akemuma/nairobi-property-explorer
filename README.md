@@ -11,8 +11,8 @@ Welcome to the **Nairobi Website Clone** – a modern, fast, and responsive webs
 
 ## 🛠 Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js (if applicable)
-- **API Integrations:** Google Maps API (optional)
+- **Backend:** PHP, Python 
+- **API Integrations:** Google Maps API 
 - **Hosting:** GitHub Pages, Netlify, or your preferred platform
 
 ## 🚀 Installation & Setup
