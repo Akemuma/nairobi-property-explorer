@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Nairobi National Park",
+    "category": "Wildlife",
+    "location": "Langata Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3667,
+      "lng": 36.8167
+    },
+    "description": "Located just 7km from the city center, Nairobi National Park is a unique wildlife sanctuary where you can spot lions, giraffes, zebras, and more against the backdrop of the city skyline.",
+    "image_url": "assets/images/attractions/nnp.jpg",
+    "rating": 4.7,
+    "reviews": 1458,
+    "hours": "6:00 AM - 6:00 PM daily",
+    "price_range": "$$",
+    "fun_factor": 5,
+    "highlights": [
+      "Big Five Animals", 
+      "Game Drives", 
+      "Bird Watching", 
+      "Picnic Sites"
+    ],
+    "best_time": "Early morning or late afternoon",
+    "tips": "Bring binoculars, wear neutral colors, and hire a guide for the best experience."
+  },
+  {
+    "id": 2,
+    "name": "Giraffe Centre",
+    "category": "Wildlife",
+    "location": "Karen, Nairobi",
+    "coordinates": {
+      "lat": -1.3759,
+      "lng": 36.7415
+    },
+    "description": "A sanctuary for the endangered Rothschild Giraffe where visitors can feed these gentle giants from an elevated platform. It's an educational and interactive experience perfect for families.",
+    "image_url": "assets/images/attractions/grf.jpg",
+    "rating": 4.5,
+    "reviews": 1087,
+    "hours": "9:00 AM - 5:00 PM daily",
+    "price_range": "$",
+    "fun_factor": 5,
+    "highlights": [
+      "Feed Giraffes", 
+      "Educational Tours", 
+      "Nature Walks", 
+      "Conservation Efforts"
+    ],
+    "best_time": "Weekday mornings to avoid crowds",
+    "tips": "Bring hand sanitizer and be ready to get some giraffe saliva on your hands during feeding!"
+  },
+  {
+    "id": 3,
+    "name": "David Sheldrick Wildlife Trust",
+    "category": "Wildlife",
+    "location": "Langata, Nairobi",
+    "coordinates": {
+      "lat": -1.3937,
+      "lng": 36.7855
+    },
+    "description": "An elephant orphanage rescuing and rehabilitating orphaned elephants. Visit during feeding time to see baby elephants being bottle-fed and playing in the mud.",
+    "image_url": "assets/images/attractions/sec.jpeg",
+    "rating": 4.8,
+    "reviews": 1924,
+    "hours": "11:00 AM - 12:00 PM (visiting hour)",
+    "price_range": "$",
+    "fun_factor": 5,
+    "highlights": [
+      "Baby Elephant Feeding", 
+      "Adoption Program", 
+      "Conservation Education", 
+      "Keeper Talks"
+    ],
+    "best_time": "Arrive by 10:30 AM to get a good viewing spot",
+    "tips": "Consider adopting an elephant to support their conservation work."
+  },
+  {
+    "id": 4,
+    "name": "Nairobi National Museum",
+    "category": "Cultural",
+    "location": "Museum Hill, Nairobi",
+    "coordinates": {
+      "lat": -1.2741,
+      "lng": 36.8172
+    },
+    "description": "Explore Kenya's rich cultural and natural heritage through ethnographic and paleontological exhibits, including prehistoric finds from the famous archaeologist Louis Leakey.",
+    "image_url": "https://source.unsplash.com/800x600/?museum,nairobi",
+    "rating": 4.3,
+    "reviews": 853,
+    "hours": "8:30 AM - 5:30 PM daily",
+    "price_range": "$",
+    "fun_factor": 3,
+    "highlights": [
+      "Hominid Fossils", 
+      "Cultural Artifacts", 
+      "Art Gallery", 
+      "Snake Park"
+    ],
+    "best_time": "Weekday mornings",
+    "tips": "Combine with a visit to the Snake Park and Botanical Gardens on the same grounds."
+  },
+  {
+    "id": 5,
+    "name": "Karen Blixen Museum",
+    "category": "Cultural",
+    "location": "Karen Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3511,
+      "lng": 36.7144
+    },
+    "description": "The former home of 'Out of Africa' author Karen Blixen, now converted into a museum showcasing colonial life in Kenya and the history of the Danish baroness.",
+    "image_url": "https://source.unsplash.com/800x600/?museum,house",
+    "rating": 4.1,
+    "reviews": 612,
+    "hours": "9:30 AM - 6:00 PM (Closed Mondays)",
+    "price_range": "$",
+    "fun_factor": 3,
+    "highlights": [
+      "Original Furnishings", 
+      "Beautiful Gardens", 
+      "Historical Photos", 
+      "Film Memorabilia"
+    ],
+    "best_time": "Afternoons when the light is best for photos",
+    "tips": "Consider reading 'Out of Africa' before visiting to enhance your experience."
+  },
+  {
+    "id": 6,
+    "name": "Karura Forest",
+    "category": "Outdoor",
+    "location": "Limuru Road, Nairobi",
+    "coordinates": {
+      "lat": -1.2397,
+      "lng": 36.8293
+    },
+    "description": "An urban forest oasis with hiking trails, waterfalls, caves, and abundant wildlife. Perfect for outdoor activities like hiking, cycling, and picnics away from the city hustle.",
+    "image_url": "https://source.unsplash.com/800x600/?forest,waterfall",
+    "rating": 4.6,
+    "reviews": 1256,
+    "hours": "6:00 AM - 6:00 PM daily",
+    "price_range": "$",
+    "fun_factor": 4,
+    "highlights": [
+      "Hiking Trails", 
+      "Waterfalls", 
+      "Historic Caves", 
+      "Bird Watching"
+    ],
+    "best_time": "Early mornings for wildlife spotting",
+    "tips": "Rent a bike at the entrance for a different way to explore the forest."
+  },
+  {
+    "id": 7,
+    "name": "Bomas of Kenya",
+    "category": "Cultural",
+    "location": "Forest Edge Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3226,
+      "lng": 36.7846
+    },
+    "description": "Experience traditional Kenyan dance, music, and cultural performances. The complex features replicas of traditional homes from various Kenyan tribes.",
+    "image_url": "https://source.unsplash.com/800x600/?dance,african",
+    "rating": 4.2,
+    "reviews": 729,
+    "hours": "10:00 AM - 6:00 PM (Shows at 2:30 PM)",
+    "price_range": "$",
+    "fun_factor": 4,
+    "highlights": [
+      "Cultural Performances", 
+      "Traditional Dances", 
+      "Tribal Homesteads", 
+      "Craft Market"
+    ],
+    "best_time": "Weekends for full performances",
+    "tips": "Arrive by 2:00 PM to get good seats for the afternoon performance."
+  },
+  {
+    "id": 8,
+    "name": "KICC Rooftop",
+    "category": "City Views",
+    "location": "City Center, Nairobi",
+    "coordinates": {
+      "lat": -1.2888,
+      "lng": 36.8209
+    },
+    "description": "The Kenyatta International Convention Centre's helipad offers breathtaking 360-degree views of Nairobi's skyline, especially beautiful at sunset.",
+    "image_url": "https://source.unsplash.com/800x600/?skyline,city",
+    "rating": 4.4,
+    "reviews": 542,
+    "hours": "8:00 AM - 6:00 PM (Mon-Fri), 10:00 AM - 5:00 PM (Sat-Sun)",
+    "price_range": "$",
+    "fun_factor": 3,
+    "highlights": [
+      "Panoramic Views", 
+      "Sunset Viewing", 
+      "Photography Spot", 
+      "City Orientation"
+    ],
+    "best_time": "Late afternoon for sunset views",
+    "tips": "Bring a camera with a wide-angle lens for the best panoramic shots."
+  },
+  {
+    "id": 9,
+    "name": "Nairobi Railway Museum",
+    "category": "Historical",
+    "location": "Station Road, Nairobi",
+    "coordinates": {
+      "lat": -1.2924,
+      "lng": 36.8273
+    },
+    "description": "Discover the history of Kenya's railways with vintage locomotives, photographs, and memorabilia from the famous 'Lunatic Express' that connected Mombasa to Lake Victoria.",
+    "image_url": "https://source.unsplash.com/800x600/?railway,train",
+    "rating": 3.9,
+    "reviews": 328,
+    "hours": "9:00 AM - 5:00 PM (Closed Mondays)",
+    "price_range": "Free",
+    "fun_factor": 3,
+    "highlights": [
+      "Vintage Locomotives", 
+      "Rail History", 
+      "Uganda Railway Exhibits", 
+      "Man-Eaters of Tsavo Story"
+    ],
+    "best_time": "Weekday mornings",
+    "tips": "Ask for a guided tour to get the most out of your visit."
+  },
+  {
+    "id": 10,
+    "name": "Nairobi Arboretum",
+    "category": "Outdoor",
+    "location": "State House Road, Nairobi",
+    "coordinates": {
+      "lat": -1.2778,
+      "lng": 36.8025
+    },
+    "description": "A serene 30-hectare forest garden with over 350 tree species, walking paths, and picnic areas. Popular for jogging, bird watching, and peaceful relaxation.",
+    "image_url": "https://source.unsplash.com/800x600/?park,garden",
+    "rating": 4.3,
+    "reviews": 627,
+    "hours": "6:00 AM - 6:00 PM daily",
+    "price_range": "Free",
+    "fun_factor": 3,
+    "highlights": [
+      "Nature Walks", 
+      "Bird Watching", 
+      "Picnic Areas", 
+      "Tree Species Collection"
+    ],
+    "best_time": "Early mornings when it's quiet",
+    "tips": "Bring a blanket and pack a picnic to enjoy under the trees."
+  },
+  {
+    "id": 11,
+    "name": "GP Karting",
+    "category": "Adventure",
+    "location": "Karen, Nairobi",
+    "coordinates": {
+      "lat": -1.3329,
+      "lng": 36.7217
+    },
+    "description": "Race around a professional go-kart track with high-speed electric karts. Suitable for beginners and experienced drivers, with options for children and adults.",
+    "image_url": "https://source.unsplash.com/800x600/?karting,racing",
+    "rating": 4.5,
+    "reviews": 412,
+    "hours": "10:00 AM - 6:00 PM daily",
+    "price_range": "$$",
+    "fun_factor": 5,
+    "highlights": [
+      "Go-Kart Racing", 
+      "Track Competitions", 
+      "Safety Training", 
+      "Lap Timing System"
+    ],
+    "best_time": "Weekday afternoons to avoid crowds",
+    "tips": "Wear closed shoes and comfortable clothes. Book in advance on weekends."
+  },
+  {
+    "id": 12,
+    "name": "Mamba Village",
+    "category": "Wildlife",
+    "location": "Karen Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3361,
+      "lng": 36.7412
+    },
+    "description": "East Africa's largest crocodile farm with feeding demonstrations and a chance to see hundreds of Nile crocodiles up close. Also features horse riding, botanical gardens, and restaurants.",
+    "image_url": "https://source.unsplash.com/800x600/?crocodile,reptile",
+    "rating": 3.9,
+    "reviews": 387,
+    "hours": "8:00 AM - 6:00 PM daily (Feeding at 3:00 PM)",
+    "price_range": "$",
+    "fun_factor": 4,
+    "highlights": [
+      "Crocodile Feeding", 
+      "Horse Riding", 
+      "Botanical Gardens", 
+      "Fish Ponds"
+    ],
+    "best_time": "Afternoon for feeding demonstrations",
+    "tips": "Combine with a visit to other Karen attractions for a full day out."
+  },
+  {
+    "id": 13,
+    "name": "The Village Market",
+    "category": "Shopping",
+    "location": "Limuru Road, Gigiri, Nairobi",
+    "coordinates": {
+      "lat": -1.2314,
+      "lng": 36.8042
+    },
+    "description": "An upscale shopping mall with over 150 stores, restaurants, a waterpark, and a vibrant Maasai craft market every Friday. Popular with expats and diplomats.",
+    "image_url": "https://source.unsplash.com/800x600/?mall,shopping",
+    "rating": 4.2,
+    "reviews": 756,
+    "hours": "9:00 AM - 8:00 PM daily",
+    "price_range": "$$$",
+    "fun_factor": 3,
+    "highlights": [
+      "International Shops", 
+      "Maasai Market Fridays", 
+      "Waterpark", 
+      "Global Cuisine"
+    ],
+    "best_time": "Fridays for the craft market",
+    "tips": "Bring cash for bargaining at the craft market, and be ready to negotiate prices."
+  },
+  {
+    "id": 14,
+    "name": "Hell's Gate National Park",
+    "category": "Adventure",
+    "location": "Naivasha (Day trip from Nairobi)",
+    "coordinates": {
+      "lat": -0.9154,
+      "lng": 36.3188
+    },
+    "description": "A unique park where you can walk, cycle, or drive among wildlife, explore dramatic gorges, natural hot springs, and rock formations that inspired The Lion King's Pride Rock.",
+    "image_url": "https://source.unsplash.com/800x600/?canyon,rockclimbing",
+    "rating": 4.7,
+    "reviews": 1023,
+    "hours": "6:00 AM - 6:00 PM daily",
+    "price_range": "$$",
+    "fun_factor": 5,
+    "highlights": [
+      "Hiking", 
+      "Rock Climbing", 
+      "Cycling", 
+      "Geothermal Features"
+    ],
+    "best_time": "Early morning start for a day trip",
+    "tips": "Rent bikes at the entrance and bring plenty of water and sun protection."
+  },
+  {
+    "id": 15,
+    "name": "Maasai Market",
+    "category": "Shopping",
+    "location": "Various locations around Nairobi",
+    "coordinates": {
+      "lat": -1.2921,
+      "lng": 36.8219
+    },
+    "description": "A colorful open-air market selling traditional African crafts, jewelry, clothing, and souvenirs. The market rotates to different locations throughout the week.",
+    "image_url": "https://source.unsplash.com/800x600/?market,craft",
+    "rating": 4.0,
+    "reviews": 548,
+    "hours": "8:00 AM - 6:00 PM (days vary by location)",
+    "price_range": "$",
+    "fun_factor": 4,
+    "highlights": [
+      "African Crafts", 
+      "Souvenir Shopping", 
+      "Cultural Experience", 
+      "Bargaining Practice"
+    ],
+    "best_time": "Morning for the best selection",
+    "tips": "Bargain hard - start at around 50% of the initial asking price, and be prepared to walk away."
+  },
+  {
+    "id": 16,
+    "name": "Nairobi Safari Walk",
+    "category": "Wildlife",
+    "location": "Langata Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3639,
+      "lng": 36.8060
+    },
+    "description": "A raised wooden boardwalk that allows visitors to see wildlife in near-natural habitats. Perfect for an educational walk to observe animals and birds up close.",
+    "image_url": "https://source.unsplash.com/800x600/?safari,animals",
+    "rating": 4.1,
+    "reviews": 423,
+    "hours": "8:00 AM - 6:00 PM daily",
+    "price_range": "$",
+    "fun_factor": 3,
+    "highlights": [
+      "Elevated Boardwalk", 
+      "Wildlife Viewing", 
+      "Educational Displays", 
+      "Rare Species"
+    ],
+    "best_time": "Early morning or late afternoon",
+    "tips": "Can be combined with a visit to the Animal Orphanage next door."
+  },
+  {
+    "id": 17,
+    "name": "Giraffe Manor",
+    "category": "Luxury Experience",
+    "location": "Karen, Nairobi",
+    "coordinates": {
+      "lat": -1.3751,
+      "lng": 36.7443
+    },
+    "description": "An exclusive boutique hotel where Rothschild's giraffes visit morning and evening, poking their heads through windows for treats. One of Nairobi's most Instagram-worthy experiences.",
+    "image_url": "https://source.unsplash.com/800x600/?giraffe,hotel",
+    "rating": 4.9,
+    "reviews": 328,
+    "hours": "For overnight guests only (exterior viewing permitted)",
+    "price_range": "$$$",
+    "fun_factor": 5,
+    "highlights": [
+      "Breakfast with Giraffes", 
+      "Luxury Accommodation", 
+      "Photographic Opportunity", 
+      "Unique Experience"
+    ],
+    "best_time": "Overnight stay required for full experience",
+    "tips": "Book 6-12 months in advance, or visit the adjacent Giraffe Centre for a similar experience."
+  },
+  {
+    "id": 18,
+    "name": "Nairobi Mamba Aquapark",
+    "category": "Adventure",
+    "location": "Komarock Road, Nairobi",
+    "coordinates": {
+      "lat": -1.2607,
+      "lng": 36.9059
+    },
+    "description": "Nairobi's largest water park featuring slides, wave pools, and water activities for all ages. A refreshing escape from the city heat.",
+    "image_url": "https://source.unsplash.com/800x600/?waterpark,slide",
+    "rating": 4.0,
+    "reviews": 389,
+    "hours": "10:00 AM - 6:00 PM (Tue-Sun, Closed Mondays)",
+    "price_range": "$$",
+    "fun_factor": 5,
+    "highlights": [
+      "Water Slides", 
+      "Wave Pool", 
+      "Lazy River", 
+      "Children's Play Area"
+    ],
+    "best_time": "Weekdays to avoid crowds",
+    "tips": "Bring your own towels and a change of clothes; lockers are available for rent."
+  },
+  {
+    "id": 19,
+    "name": "Ngong Hills",
+    "category": "Outdoor",
+    "location": "Ngong, Kajiado County",
+    "coordinates": {
+      "lat": -1.4235,
+      "lng": 36.6537
+    },
+    "description": "A series of hills offering panoramic views of Nairobi on one side and the Great Rift Valley on the other. Popular for hiking, picnics, and paragliding.",
+    "image_url": "https://source.unsplash.com/800x600/?hills,hiking",
+    "rating": 4.4,
+    "reviews": 612,
+    "hours": "6:00 AM - 6:00 PM daily",
+    "price_range": "$",
+    "fun_factor": 4,
+    "highlights": [
+      "Hiking Trails", 
+      "Panoramic Views", 
+      "Wind Turbines", 
+      "Paragliding"
+    ],
+    "best_time": "Early morning for clear views",
+    "tips": "Hire a local guide for safety, and bring warm clothing as it can get windy at the top."
+  },
+  {
+    "id": 20,
+    "name": "Kitengela Hot Glass",
+    "category": "Art & Craft",
+    "location": "Kitengela, Kajiado County",
+    "coordinates": {
+      "lat": -1.4626,
+      "lng": 36.9255
+    },
+    "description": "Watch skilled artisans create stunning glass art pieces using traditional techniques. Visitors can tour the workshop, make their own glass piece, and purchase unique souvenirs.",
+    "image_url": "https://source.unsplash.com/800x600/?glass,art",
+    "rating": 4.3,
+    "reviews": 217,
+    "hours": "9:00 AM - 5:00 PM (Mon-Sat, Closed Sundays)",
+    "price_range": "$$",
+    "fun_factor": 4,
+    "highlights": [
+      "Glass Blowing Demonstrations", 
+      "Art Workshops", 
+      "Recycled Materials", 
+      "Unique Souvenirs"
+    ],
+    "best_time": "Mornings when glassblowers are most active",
+    "tips": "Call ahead to confirm demonstrations, and allow time to explore the unique mosaic garden."
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "New Restaurant District Opens in Westlands",
+    "category": "Food & Dining",
+    "date": "2025-03-28",
+    "author": "James Kariuki",
+    "image_url": "https://source.unsplash.com/800x600/?restaurant,food",
+    "summary": "Westlands welcomes a new restaurant hub featuring 12 diverse eateries in a beautifully designed food court setting.",
+    "content": "Nairobi's dining scene has received a boost with the opening of 'Flavors of Nairobi,' a new restaurant district in Westlands. This culinary destination features 12 diverse eateries ranging from authentic Kenyan cuisine to international flavors, all housed in a beautifully designed food court setting. The development, which cost approximately KSh 150 million, aims to showcase Kenya's growing reputation as a foodie destination while providing Nairobi residents with new dining options. The district also includes outdoor seating areas, live cooking demonstrations, and weekend entertainment.",
+    "tags": ["dining", "westlands", "restaurants", "food"]
+  },
+  {
+    "id": 2,
+    "title": "Nairobi International Airport Expansion Project Announced",
+    "category": "Development",
+    "date": "2025-03-25",
+    "author": "Sarah Omondi",
+    "image_url": "https://source.unsplash.com/800x600/?airport,construction",
+    "summary": "KAA announces a KSh 56 billion expansion project for JKIA to accommodate increasing passenger traffic.",
+    "content": "The Kenya Airports Authority (KAA) has announced a major KSh 56 billion expansion project for Jomo Kenyatta International Airport (JKIA). The project, set to begin in June 2025, aims to increase the airport's capacity from the current 7.5 million passengers annually to 15 million by 2030. The expansion will include a new passenger terminal, additional runways, and upgraded cargo handling facilities. According to KAA, the investment is necessary to accommodate Kenya's growing status as a regional transportation hub and to meet international standards. The project is expected to create over 5,000 jobs during construction and significantly improve Kenya's aviation infrastructure.",
+    "tags": ["airport", "development", "infrastructure", "JKIA"]
+  },
+  {
+    "id": 3,
+    "title": "Popular Matatu Route Introduces Cashless Payment System",
+    "category": "Transport",
+    "date": "2025-03-21",
+    "author": "Daniel Mwangi",
+    "image_url": "https://source.unsplash.com/800x600/?bus,payment",
+    "summary": "The popular Route 105 matatu service now offers cashless payments through mobile money and card options.",
+    "content": "In a significant move towards modernizing Nairobi's public transport system, the popular Route 105 matatu service has introduced a cashless payment system. Passengers can now pay their fares using mobile money platforms like M-Pesa and Airtel Money, as well as debit and credit cards. The initiative, which covers over 100 matatus operating between the CBD and Rongai, aims to improve efficiency, reduce cash handling risks, and provide better accountability. Matatu Owners Association chairperson Simon Kimutai praised the move, saying it represents the future of public transport in Kenya. The system also offers discounted rates for regular commuters and integrates with a real-time tracking app that shows the location and estimated arrival time of matatus.",
+    "tags": ["matatu", "transport", "technology", "payments"]
+  },
+  {
+    "id": 4,
+    "title": "Nairobi Nightlife Safety Campaign Launched",
+    "category": "Nightlife",
+    "date": "2025-03-18",
+    "author": "Lucy Wambui",
+    "image_url": "https://source.unsplash.com/800x600/?nightclub,safety",
+    "summary": "City authorities partner with nightlife establishments to enhance safety measures for partygoers.",
+    "content": "Nairobi County, in partnership with the Pubs, Entertainment, and Restaurants Association of Kenya (PERAK), has launched a comprehensive nightlife safety campaign. The initiative aims to enhance security measures and promote responsible behavior in the city's vibrant nightlife scene. As part of the campaign, over 200 nightclubs, bars, and restaurants will receive additional security training, implement standardized safety protocols, and install improved lighting and CCTV systems. The county government is also deploying additional patrol officers in popular nightlife areas during weekends. 'Nairobi's nightlife is world-famous, and we want to ensure it remains both exciting and safe for everyone,' said the County Executive for Tourism and Hospitality during the launch event at a popular club on Ngong Road.",
+    "tags": ["nightlife", "safety", "clubs", "security"]
+  },
+  {
+    "id": 5,
+    "title": "Major Art Exhibition Celebrates Nairobi's Cultural Heritage",
+    "category": "Arts & Culture",
+    "date": "2025-03-15",
+    "author": "Michelle Akinyi",
+    "image_url": "https://source.unsplash.com/800x600/?art,exhibition",
+    "summary": "The National Museum hosts 'Urban Pulse: Nairobi Through Art', showcasing works from 50 local artists.",
+    "content": "The National Museum of Kenya is currently hosting 'Urban Pulse: Nairobi Through Art', a major exhibition celebrating the capital's rich cultural heritage and urban identity. The exhibition, which runs until May 30th, features over 100 works from 50 local artists across various mediums including painting, photography, sculpture, and multimedia installations. The artworks explore Nairobi's complex character, from its colonial history to its modern-day challenges and triumphs. 'This exhibition captures the spirit of Nairobi - its resilience, diversity, and creative energy,' explains curator Dr. Nyawira Mwangi. The exhibition has already attracted significant interest, with over 2,000 visitors in its opening weekend. Educational programs and artist talks are scheduled throughout the exhibition period.",
+    "tags": ["art", "culture", "exhibition", "museum"]
+  },
+  {
+    "id": 6,
+    "title": "New Eco-Friendly Attraction Opens in Karura Forest",
+    "category": "Attractions",
+    "date": "2025-03-12",
+    "author": "Patrick Oloo",
+    "image_url": "https://source.unsplash.com/800x600/?forest,canopy",
+    "summary": "Karura Forest unveils a canopy walkway and educational center focusing on environmental conservation.",
+    "content": "Karura Forest has added an exciting new attraction with the opening of an eco-friendly canopy walkway and environmental education center. The 250-meter suspended walkway offers visitors a bird's-eye view of the forest ecosystem from 15 meters above the ground. The accompanying education center features interactive exhibits on Kenya's biodiversity, climate change, and conservation efforts. The KSh 30 million project, funded through a partnership between the Kenya Forest Service and international conservation organizations, aims to promote environmental awareness while providing a unique recreational experience. 'This initiative transforms how people interact with urban forests, combining education with adventure,' said Karura Forest Manager John Gitau during the opening ceremony. Entry fees will contribute directly to forest conservation efforts.",
+    "tags": ["karura", "forest", "environment", "attraction"]
+  },
+  {
+    "id": 7,
+    "title": "Nairobi Food Festival Announces Expanded Program for 2025",
+    "category": "Events",
+    "date": "2025-03-10",
+    "author": "Grace Kimani",
+    "image_url": "https://source.unsplash.com/800x600/?food,festival",
+    "summary": "The annual Nairobi Food Festival will feature more vendors, celebrity chefs, and interactive experiences.",
+    "content": "Organizers of the annual Nairobi Food Festival have announced an expanded program for the 2025 edition, scheduled for May 15-17 at Uhuru Gardens. This year's festival will feature over 100 food vendors, up from 70 last year, representing a diverse range of cuisines from across Kenya and beyond. New additions include a 'Chef's Theater' with live demonstrations from celebrity chefs, cooking competitions, and more interactive experiences for attendees. 'We're taking the festival to a new level to showcase Nairobi's status as East Africa's culinary capital,' said festival director Sophia Wanjiku. Last year's event attracted over 15,000 food enthusiasts, and organizers expect that number to increase significantly this year. Early bird tickets will be available starting April 1st.",
+    "tags": ["food", "festival", "events", "dining"]
+  },
+  {
+    "id": 8,
+    "title": "Major Road Construction to Affect Mombasa Road Traffic",
+    "category": "Transport",
+    "date": "2025-03-05",
+    "author": "David Otieno",
+    "image_url": "https://source.unsplash.com/800x600/?road,construction",
+    "summary": "Motorists advised to seek alternative routes as three-month construction project begins on Mombasa Road.",
+    "content": "The Kenya Urban Roads Authority (KURA) has announced the commencement of a major road construction project on Mombasa Road that is expected to significantly affect traffic flow for the next three months. The project, which aims to expand and improve drainage systems along a 5-kilometer stretch between the CBD and South B, will involve lane closures and diversions. KURA Director General Engineer Samuel Muturi advised motorists to seek alternative routes during the construction period and apologized for the inconvenience. 'Once completed, this project will significantly reduce flooding during rainy seasons and improve overall traffic flow on one of Nairobi's busiest highways,' Eng. Muturi explained. KURA has published detailed maps of alternative routes and implemented additional public transport options to mitigate disruption.",
+    "tags": ["traffic", "construction", "mombasa road", "transport"]
+  },
+  {
+    "id": 9,
+    "title": "Popular Restaurant Chain Opens Flagship Location in Nairobi",
+    "category": "Food & Dining",
+    "date": "2025-03-02",
+    "author": "Esther Njeri",
+    "image_url": "https://source.unsplash.com/800x600/?restaurant,opening",
+    "summary": "International restaurant chain 'Savanna Grill' opens its largest African location in Nairobi's CBD.",
+    "content": "International restaurant chain 'Savanna Grill' has opened its flagship African location in Nairobi's central business district. The 300-seat restaurant, located in the newly developed Unity Tower on Kimathi Street, represents a KSh 200 million investment and has created over 100 jobs. 'Savanna Grill' is known for its fusion of contemporary international cuisine with authentic African flavors and ingredients. The Nairobi location features a luxurious interior inspired by the Kenyan landscape, a rooftop bar with panoramic city views, and a dedicated area for live cultural performances. 'We chose Nairobi for our flagship African restaurant because of the city's sophisticated dining scene and cosmopolitan customer base,' said global CEO Maria Sanchez during the grand opening event. The restaurant is open daily from 11 AM to midnight.",
+    "tags": ["restaurant", "dining", "CBD", "business"]
+  },
+  {
+    "id": 10,
+    "title": "Nairobi Hosts International Cultural Festival",
+    "category": "Arts & Culture",
+    "date": "2025-02-28",
+    "author": "Brian Onyango",
+    "image_url": "https://source.unsplash.com/800x600/?festival,culture",
+    "summary": "A week-long international cultural festival brings performances and exhibitions from 20 countries to various venues across Nairobi.",
+    "content": "Nairobi is currently hosting the 'Global Cultural Connections' festival, a week-long international celebration featuring performances, exhibitions, workshops, and culinary events from 20 countries. The festival, which runs until March 7th, utilizes various venues across the city including the Kenya National Theatre, KICC, Nairobi National Museum, and several public parks. Highlights include traditional dance performances, international film screenings, craft exhibitions, and food festivals representing cultures from Africa, Europe, Asia, and the Americas. 'This festival promotes cultural exchange and mutual understanding while showcasing Nairobi's growing status as an international cultural hub,' explained Festival Director Omar Hassan. Most events are free to the public, with special workshops and premium performances requiring advance registration.",
+    "tags": ["culture", "festival", "international", "arts"]
+  },
+  {
+    "id": 11,
+    "title": "Historic Matatu Route Celebrates 30 Years of Operation",
+    "category": "Transport",
+    "date": "2025-02-25",
+    "author": "Isaac Mbugua",
+    "image_url": "https://source.unsplash.com/800x600/?bus,anniversary",
+    "summary": "The iconic Eastleigh Route 6 matatu service celebrates three decades with specially designed anniversary vehicles and community events.",
+    "content": "The iconic Eastleigh Route 6 matatu service, one of Nairobi's oldest continuous public transport routes, is celebrating 30 years of operation this month. To mark this milestone, the route operators have unveiled five specially designed anniversary vehicles featuring artistic depictions of the route's history and Eastleigh's transformation over three decades. The celebrations also include community events, reduced fares for regular customers, and a photography exhibition at the Eastleigh Community Center documenting the evolution of Nairobi's matatu culture. 'Route 6 has been more than just a transport service; it's been a cultural institution that has witnessed and contributed to Eastleigh's growth,' said Mohammed Ali, chairman of the Route 6 Operators Association. The route, which began with just 3 matatus in 1995, now operates a fleet of over 50 vehicles serving thousands of commuters daily.",
+    "tags": ["matatu", "transport", "eastleigh", "anniversary"]
+  },
+  {
+    "id": 12,
+    "title": "New Nightlife Regulations to Take Effect Next Month",
+    "category": "Nightlife",
+    "date": "2025-02-20",
+    "author": "Caroline Wangari",
+    "image_url": "https://source.unsplash.com/800x600/?nightclub,regulations",
+    "summary": "County government introduces new operating hours and security requirements for Nairobi's nightlife establishments.",
+    "content": "The Nairobi County Government has announced new regulations for nightlife establishments, set to take effect from April 1st. The updated regulations include standardized operating hours, enhanced security requirements, noise control measures, and mandatory staff training programs. Under the new rules, clubs and bars in residential areas must close by 1 AM on weekdays and 3 AM on weekends, while establishments in designated entertainment zones can operate 24 hours. All venues must install functional CCTV systems, employ licensed security personnel, and implement noise containment measures. 'These regulations aim to strike a balance between supporting Nairobi's vibrant nightlife economy and ensuring the safety and comfort of all residents,' explained County Executive for Commerce and Tourism, Dr. Beatrice Kosgei. The county government will conduct awareness workshops for business owners before the regulations take effect.",
+    "tags": ["nightlife", "regulations", "clubs", "security"]
+  }
+]

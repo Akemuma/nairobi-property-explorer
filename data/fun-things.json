@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Nairobi National Park Safari",
+    "description": "Experience a unique wildlife safari just minutes from the city center. See lions, giraffes, zebras, and more against the backdrop of Nairobi's skyline.",
+    "image": "assets/images/fun/nairobi-national-park.jpg",
+    "category": "wildlife",
+    "rating": "4.8/5",
+    "website": "https://www.kws.go.ke/parks/nairobi-national-park"
+  },
+  {
+    "id": 2,
+    "name": "David Sheldrick Wildlife Trust",
+    "description": "Visit the famous elephant orphanage and watch baby elephants being fed and playing in the mud. A heartwarming conservation experience.",
+    "image": "assets/images/fun/elephant-orphanage.jpg",
+    "category": "wildlife",
+    "rating": "4.9/5",
+    "website": "https://www.sheldrickwildlifetrust.org"
+  },
+  {
+    "id": 3,
+    "name": "Karura Forest Hike",
+    "description": "Explore over 50 km of trails through indigenous forest, see stunning waterfalls, caves, and enjoy picnic spots in this urban oasis.",
+    "image": "assets/images/fun/karura-forest.jpg",
+    "category": "outdoor",
+    "rating": "4.7/5",
+    "website": "https://www.friendsofkarura.org"
+  },
+  {
+    "id": 4,
+    "name": "Giraffe Centre",
+    "description": "Feed endangered Rothschild giraffes from an elevated platform and learn about conservation efforts to protect these gentle giants.",
+    "image": "assets/images/fun/giraffe-centre.jpg",
+    "category": "wildlife",
+    "rating": "4.6/5",
+    "website": "https://www.giraffecentre.org"
+  },
+  {
+    "id": 5,
+    "name": "GoDown Arts Centre",
+    "description": "Immerse yourself in Nairobi's vibrant creative scene with exhibitions, performances, and workshops from Kenya's top artists.",
+    "image": "assets/images/fun/godown-arts.jpg",
+    "category": "cultural",
+    "rating": "4.5/5",
+    "website": "https://www.thegodownartscentre.com"
+  },
+  {
+    "id": 6,
+    "name": "Bomas of Kenya Cultural Show",
+    "description": "Experience traditional dances, music, and lifestyle exhibitions representing Kenya's diverse ethnic groups in an engaging performance.",
+    "image": "assets/images/fun/bomas-kenya.jpg",
+    "category": "cultural",
+    "rating": "4.7/5",
+    "website": "https://www.bomasofkenya.co.ke"
+  },
+  {
+    "id": 7,
+    "name": "Nairobi Railway Museum",
+    "description": "Step back in time and discover Kenya's railway heritage with vintage locomotives, photographs, and artifacts from the historic 'Lunatic Express'.",
+    "image": "assets/images/fun/railway-museum.jpg",
+    "category": "cultural",
+    "rating": "4.3/5",
+    "website": "https://www.krc.co.ke/railway-museum/"
+  },
+  {
+    "id": 8,
+    "name": "GP Karting",
+    "description": "Feel the adrenaline rush as you race around Nairobi's premier go-karting track, perfect for friends and family competitions.",
+    "image": "assets/images/fun/gp-karting.jpg",
+    "category": "entertainment",
+    "rating": "4.5/5",
+    "website": "https://www.gpkartingnairobi.com"
+  },
+  {
+    "id": 9,
+    "name": "Nairobi National Museum",
+    "description": "Explore Kenya's rich heritage through prehistoric fossils, cultural artifacts, bird exhibits, and beautiful botanical gardens.",
+    "image": "assets/images/fun/national-museum.jpg",
+    "category": "cultural",
+    "rating": "4.6/5",
+    "website": "https://www.museums.or.ke"
+  },
+  {
+    "id": 10,
+    "name": "Village Market Shopping & Entertainment",
+    "description": "Shop, dine, and enjoy entertainment at this expansive mall featuring a waterpark, bowling alley, and regular cultural market days.",
+    "image": "assets/images/fun/village-market.jpg",
+    "category": "entertainment",
+    "rating": "4.4/5",
+    "website": "https://www.villagemarket-kenya.com"
+  },
+  {
+    "id": 11,
+    "name": "Paradise Lost Cave & Waterfall",
+    "description": "Discover prehistoric caves, boat ride on peaceful lakes, and enjoy picnics by cascading waterfalls at this scenic recreational park.",
+    "image": "assets/images/fun/paradise-lost.jpg",
+    "category": "outdoor",
+    "rating": "4.2/5",
+    "website": "https://www.paradiselostkenya.com"
+  },
+  {
+    "id": 12,
+    "name": "Mamba Village Centre",
+    "description": "Watch crocodile feeding, ride horses, enjoy boat rides, and feast on crocodile meat at East Africa's largest crocodile farm.",
+    "image": "assets/images/fun/mamba-village.jpg",
+    "category": "family",
+    "rating": "4.3/5",
+    "website": "https://www.mamba-village.com"
+  },
+  {
+    "id": 13,
+    "name": "KICC Rooftop View",
+    "description": "Take in breathtaking 360-degree panoramic views of Nairobi's skyline from the rooftop of this iconic skyscraper.",
+    "image": "assets/images/fun/kicc-view.jpg",
+    "category": "cultural",
+    "rating": "4.5/5",
+    "website": "https://www.kicc.co.ke"
+  },
+  {
+    "id": 14,
+    "name": "Nairobi Ice Skating",
+    "description": "Experience the thrill of ice skating in Africa at Kenya's only ice rink, perfect for beginners and experienced skaters alike.",
+    "image": "assets/images/fun/ice-skating.jpg",
+    "category": "entertainment",
+    "rating": "4.1/5",
+    "website": "https://www.panari-nairobi.com/ice-skating"
+  },
+  {
+    "id": 15,
+    "name": "Kitengela Hot Glass Studio",
+    "description": "Watch skilled artisans create stunning glass art pieces using traditional techniques and browse the gallery of colorful works.",
+    "image": "assets/images/fun/hot-glass.jpg",
+    "category": "cultural",
+    "rating": "4.4/5",
+    "website": "https://www.kitengela-glass.com"
+  },
+  {
+    "id": 16,
+    "name": "Ngong Hills Hike",
+    "description": "Embark on a scenic hike across the famous hills with rewarding views of Nairobi city on one side and the Great Rift Valley on the other.",
+    "image": "assets/images/fun/ngong-hills.jpg",
+    "category": "outdoor",
+    "rating": "4.6/5",
+    "website": "https://www.kws.go.ke/content/ngong-hills-forest-reserve"
+  },
+  {
+    "id": 17,
+    "name": "Nairobi Safari Walk",
+    "description": "Take a guided boardwalk tour through different habitats and see Kenya's wild animals up close in naturalistic enclosures.",
+    "image": "assets/images/fun/safari-walk.jpg",
+    "category": "family",
+    "rating": "4.2/5",
+    "website": "https://www.kws.go.ke/content/nairobi-safari-walk"
+  },
+  {
+    "id": 18,
+    "name": "Kazuri Beads Workshop",
+    "description": "Tour a fair-trade ceramic bead factory employing local women, see how handmade beads are created, and shop for unique souvenirs.",
+    "image": "assets/images/fun/kazuri-beads.jpg",
+    "category": "cultural",
+    "rating": "4.7/5",
+    "website": "https://www.kazuri.com"
+  }
+]

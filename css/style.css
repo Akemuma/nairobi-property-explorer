@@ -1,0 +1,903 @@
+/*
+* Nairobi Pulse - Main Stylesheet
+* Author: Nairobi Pulse Team
+* Version: 1.0
+*/
+
+/* ===== Base Styles ===== */
+:root {
+  /* Colors */
+  --primary-color: #FF6B35;       /* Vibrant Orange */
+  --secondary-color: #2E4057;     /* Deep Blue */
+  --accent-color: #FFD166;        /* Golden Yellow */
+  --danger-color: #F25F5C;        /* Coral Red */
+  --success-color: #36A18B;       /* Teal Green */
+  --dark-color: #292F36;          /* Nearly Black */
+  --light-color: #F5F5F5;         /* Off White */
+  --text-color: #333333;          /* Dark Gray */
+  --gray-color: #6C757D;          /* Medium Gray */
+  
+  /* Fonts */
+  --heading-font: 'Montserrat', sans-serif;
+  --body-font: 'Poppins', sans-serif;
+  
+  /* Shadows */
+  --card-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  --hover-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #eb5f2e;
+  border-color: #eb5f2e;
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.btn-success {
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.btn-warning {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--dark-color);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.separator {
+  height: 3px;
+  width: 60px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
+}
+
+/* ===== Preloader ===== */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 107, 53, 0.2);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ===== Header & Navigation ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  padding: 0;
+}
+
+/* Smart Navigation - Auto Hide */
+.nav-smart-hide {
+  transform: translateY(-100%);
+  box-shadow: none !important;
+}
+
+.nav-scrolled {
+  background: rgba(40, 73, 2, 0.9);
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 10px rgba(5, 54, 2, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-brand span {
+  margin-left: 0.5rem;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(48, 6, 6, 0.9) !important;
+  margin-left: 1.5rem;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-color);
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover:after,
+.nav-link.active:after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: rgb(246, 188, 16) !important;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: rgba(255, 107, 53, 0.2);
+  color: var(--accent-color);
+  padding-left: 25px;
+}
+
+.dropdown-item.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Add a little arrow indicator for the dropdown */
+.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Handle dropdown hover on desktop */
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* ===== Main Content Spacing ===== */
+body {
+  padding-top: 70px; /* Add padding to account for fixed navbar */
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?nairobi,city') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: -70px; /* Offset the body padding for hero sections */
+  padding: 120px 0;
+  position: relative;
+}
+
+.hero-image-container {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.03);
+}
+
+/* ===== Category Hero Sections ===== */
+.category-hero-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  background-attachment: fixed;
+  margin-top: -70px; /* Offset the body padding */
+}
+
+.category-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.restaurant-hero {
+  background-image: url('https://source.unsplash.com/1600x900/?restaurant,food');
+}
+
+.nightlife-hero {
+  background-image: url('https://source.unsplash.com/1600x900/?nightclub,bar');
+}
+
+.matatu-hero {
+  background-image: url('https://source.unsplash.com/1600x900/?bus,transport');
+}
+
+.about-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?nairobi,skyline') no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 80px;
+  margin-top: -70px; /* Offset the body padding */
+  color: white;
+}
+
+.contact-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?nairobi,office') no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 80px;
+  margin-top: -70px; /* Offset the body padding */
+  color: white;
+}
+
+/* ===== Category Cards ===== */
+.category-card {
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow);
+}
+
+.category-card i {
+  margin-bottom: 1rem;
+}
+
+/* ===== Venue Cards ===== */
+.venue-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+}
+
+.venue-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow);
+}
+
+.venue-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+
+.venue-card:hover .venue-image {
+  transform: scale(1.05);
+}
+
+.venue-description {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/* ===== Filter Section ===== */
+.filter-section {
+  position: relative;
+  z-index: 10;
+  margin-top: -30px;
+}
+
+/* ===== Matatu Culture ===== */
+.matatu-intro-image {
+  height: 400px;
+  background-image: url('https://source.unsplash.com/800x600/?bus,art');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.timeline {
+  position: relative;
+  margin: 30px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: var(--primary-color);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-content {
+  width: 45%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  position: relative;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  margin-left: auto;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  margin-right: auto;
+}
+
+/* ===== About Page ===== */
+.about-image-1 {
+  height: 250px;
+  background: url('https://source.unsplash.com/800x600/?nairobi,restaurant') no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.about-image-2 {
+  height: 250px;
+  background: url('https://source.unsplash.com/800x600/?nairobi,nightlife') no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* ===== Contact Page ===== */
+.contact-info {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 107, 53, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.info-content h5 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 107, 53, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.no-results-container {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 60px 0 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.footer-logo h4 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer h5 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer h5::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.developer-link {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.developer-link:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.footer .social-icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.footer .social-icon:hover {
+  background-color: var(--primary-color);
+}
+
+/* ===== Responsive Styles ===== */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+  
+  .hero-section {
+    min-height: 80vh;
+  }
+  
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-dot {
+    left: 30px;
+  }
+  
+  .timeline-content {
+    width: 85%;
+    margin-left: 60px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .venue-card {
+    margin-bottom: 20px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .d-md-flex {
+    justify-content: center !important;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .footer h5::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer-logo {
+    justify-content: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .venue-description {
+    height: auto;
+    -webkit-line-clamp: 3;
+  }
+}
+
+/* ===== Animation & Slider Styles ===== */
+/* Swiper Slider Styles */
+.swiper-container, 
+.matatu-gallery-slider,
+.restaurant-gallery-slider,
+.nightlife-gallery-slider,
+.attraction-gallery-slider,
+.event-gallery-slider {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  opacity: 0.8;
+  background: var(--light-color);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--accent-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--accent-color);
+  width: 30px;
+  height: 30px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Enhanced slider styles */
+.card-img-top.venue-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.swiper-container-fade .swiper-slide {
+  transition-property: opacity;
+}
+
+.swiper-container-fade .swiper-slide .venue-image {
+  transition: opacity 0.3s ease;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.restaurant-gallery-slider .swiper-pagination-bullet-active {
+  background: var(--primary-color);
+}
+
+.nightlife-gallery-slider .swiper-pagination-bullet-active {
+  background: var(--danger-color);
+}
+
+.attraction-gallery-slider .swiper-pagination-bullet-active,
+.event-gallery-slider .swiper-pagination-bullet-active {
+  background: var(--primary-color);
+}
+
+.restaurant-gallery-slider .swiper-button-next,
+.restaurant-gallery-slider .swiper-button-prev {
+  color: var(--primary-color);
+}
+
+.nightlife-gallery-slider .swiper-button-next,
+.nightlife-gallery-slider .swiper-button-prev {
+  color: var(--danger-color);
+}
+
+.attraction-gallery-slider .swiper-button-next,
+.attraction-gallery-slider .swiper-button-prev,
+.event-gallery-slider .swiper-button-next,
+.event-gallery-slider .swiper-button-prev {
+  color: var(--primary-color);
+}
+
+/* Card Animation Styles */
+.animate-on-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animate-on-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card.fun-thing-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card.fun-thing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-container img {
+  transition: transform 0.5s ease;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card.fun-thing-card:hover .card-img-container img {
+  transform: scale(1.05);
+}
+
+.category-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--accent-color);
+  color: var(--dark-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Fun Facts Section */
+.fun-fact-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.fun-fact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Social Media Share Links */
+.share-link {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: all 0.3s ease;
+}
+
+.share-link.facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.share-link.twitter {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.share-link.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.share-link:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}

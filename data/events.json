@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "name": "Nairobi Wine Festival",
+    "category": "Food & Drink",
+    "date": "2025-04-12",
+    "end_date": "2025-04-13",
+    "time": "12:00 PM - 8:00 PM",
+    "venue": "Carnivore Gardens",
+    "location": "Langata Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3342,
+      "lng": 36.7878
+    },
+    "description": "Experience the largest wine festival in East Africa with over 200 wines from across the globe. Includes wine tastings, food pairings, live music, and masterclasses with international sommeliers.",
+    "image_url": "assets/images/events/wine.jpg",
+    "price_range": "3000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobiwineweek.com",
+    "highlights": [
+      "Wine Tasting", 
+      "Food Pairings", 
+      "Live Music", 
+      "Masterclasses"
+    ],
+    "tickets_available": true,
+    "organizer": "Nairobi Wine Week"
+  },
+  {
+    "id": 2,
+    "name": "Koroga Festival",
+    "category": "Music & Entertainment",
+    "date": "2025-04-26",
+    "end_date": "2025-04-26",
+    "time": "2:00 PM - 10:00 PM",
+    "venue": "Arboretum Gardens",
+    "location": "State House Road, Nairobi",
+    "coordinates": {
+      "lat": -1.2765,
+      "lng": 36.8011
+    },
+    "description": "A bi-monthly outdoor event combining live music with food and art. 'Koroga' means 'mix' in Swahili, reflecting the blend of music genres and cultural experiences.",
+    "image_url": "assets/images/events/koroga.jpg",
+    "price_range": "2000 KSh",
+    "recurring": "Bi-monthly",
+    "website": "https://www.korogafestival.co.ke",
+    "highlights": [
+      "Live African Music", 
+      "Food Stalls", 
+      "Art Market", 
+      "Family Activities"
+    ],
+    "tickets_available": true,
+    "organizer": "Capital FM"
+  },
+  {
+    "id": 3,
+    "name": "Nairobi Tech Week",
+    "category": "Technology & Innovation",
+    "date": "2025-05-05",
+    "end_date": "2025-05-09",
+    "time": "9:00 AM - 5:00 PM",
+    "venue": "Radisson Blu Hotel",
+    "location": "Upper Hill, Nairobi",
+    "coordinates": {
+      "lat": -1.2952,
+      "lng": 36.8151
+    },
+    "description": "East Africa's biggest tech event bringing together developers, startups, investors, and tech enthusiasts for workshops, panels, and networking opportunities.",
+    "image_url": "assets/images/events/ntw.jpg",
+    "price_range": "Free - 5000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobitectweek.com",
+    "highlights": [
+      "Workshops", 
+      "Startup Pitch", 
+      "Hackathon", 
+      "Networking Events"
+    ],
+    "tickets_available": true,
+    "organizer": "Moringa School"
+  },
+  {
+    "id": 4,
+    "name": "Nairobi Fashion Week",
+    "category": "Fashion & Design",
+    "date": "2025-05-15",
+    "end_date": "2025-05-17",
+    "time": "4:00 PM - 10:00 PM",
+    "venue": "KICC",
+    "location": "CBD, Nairobi",
+    "coordinates": {
+      "lat": -1.2886,
+      "lng": 36.8228
+    },
+    "description": "A premier fashion event showcasing collections from established and emerging African designers, celebrating Kenya's growing fashion industry and creative talent.",
+    "image_url": "https://source.unsplash.com/800x600/?fashion,runway",
+    "price_range": "2500 KSh - 10000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobifashionweek.com",
+    "highlights": [
+      "Designer Showcases", 
+      "Pop-Up Market", 
+      "Industry Panels", 
+      "Networking Events"
+    ],
+    "tickets_available": true,
+    "organizer": "Kenya Fashion Council"
+  },
+  {
+    "id": 5,
+    "name": "Madaraka Day Celebrations",
+    "category": "Arts & Culture",
+    "date": "2025-06-01",
+    "end_date": "2025-06-01",
+    "time": "8:00 AM - 2:00 PM",
+    "venue": "Uhuru Gardens",
+    "location": "Langata Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3235,
+      "lng": 36.8243
+    },
+    "description": "National holiday celebrations commemorating the day Kenya attained internal self-rule. Features military parades, cultural performances, and speeches by government officials.",
+    "image_url": "https://source.unsplash.com/800x600/?celebration,flag",
+    "price_range": "Free",
+    "recurring": "Annual",
+    "website": "https://www.presidency.go.ke",
+    "highlights": [
+      "Military Parade", 
+      "Presidential Address", 
+      "Cultural Performances", 
+      "Patriotic Celebrations"
+    ],
+    "tickets_available": false,
+    "organizer": "Government of Kenya"
+  },
+  {
+    "id": 6,
+    "name": "Nairobi Film Festival",
+    "category": "Arts & Culture",
+    "date": "2025-06-15",
+    "end_date": "2025-06-21",
+    "time": "Various Screenings",
+    "venue": "Multiple venues across Nairobi",
+    "location": "Nairobi",
+    "coordinates": {
+      "lat": -1.2833,
+      "lng": 36.8172
+    },
+    "description": "An annual celebration of African cinema featuring film screenings, director Q&As, workshops, and networking events for filmmakers from across the continent.",
+    "image_url": "https://source.unsplash.com/800x600/?cinema,film",
+    "price_range": "500 KSh - 1500 KSh per screening",
+    "recurring": "Annual",
+    "website": "https://www.nairobifilmfestival.com",
+    "highlights": [
+      "Film Screenings", 
+      "Director Talks", 
+      "Workshops", 
+      "Industry Networking"
+    ],
+    "tickets_available": true,
+    "organizer": "Nairobi Film Foundation"
+  },
+  {
+    "id": 7,
+    "name": "Nairobi Coffee Festival",
+    "category": "Food & Drink",
+    "date": "2025-07-05",
+    "end_date": "2025-07-06",
+    "time": "10:00 AM - 6:00 PM",
+    "venue": "Nairobi Arboretum",
+    "location": "State House Road, Nairobi",
+    "coordinates": {
+      "lat": -1.2765,
+      "lng": 36.8011
+    },
+    "description": "A celebration of Kenya's world-renowned coffee culture with tastings, brewing competitions, barista masterclasses, and exhibits from local coffee farms and roasters.",
+    "image_url": "https://source.unsplash.com/800x600/?coffee,barista",
+    "price_range": "1000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobicoffeefestival.co.ke",
+    "highlights": [
+      "Coffee Tastings", 
+      "Barista Championships", 
+      "Brewing Workshops", 
+      "Bean-to-Cup Journey"
+    ],
+    "tickets_available": true,
+    "organizer": "Kenya Coffee Association"
+  },
+  {
+    "id": 8,
+    "name": "Lewa Marathon",
+    "category": "Sports & Fitness",
+    "date": "2025-06-28",
+    "end_date": "2025-06-28",
+    "time": "7:00 AM - 2:00 PM",
+    "venue": "Lewa Wildlife Conservancy",
+    "location": "Isiolo (4hr drive from Nairobi)",
+    "coordinates": {
+      "lat": 0.2064,
+      "lng": 37.4635
+    },
+    "description": "One of the world's wildest marathons, taking place in a wildlife conservancy with participants running alongside giraffes, zebras, and antelopes. Proceeds support wildlife conservation and community projects.",
+    "image_url": "https://source.unsplash.com/800x600/?marathon,wildlife",
+    "price_range": "5000 KSh - 10000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.lewa.org/support-lewa/safaricom-marathon",
+    "highlights": [
+      "Wildlife Marathon", 
+      "Conservation Fundraiser", 
+      "Half-Marathon Option", 
+      "Children's Race"
+    ],
+    "tickets_available": true,
+    "organizer": "Lewa Wildlife Conservancy"
+  },
+  {
+    "id": 9,
+    "name": "Nairobi International Book Fair",
+    "category": "Arts & Culture",
+    "date": "2025-07-15",
+    "end_date": "2025-07-19",
+    "time": "9:00 AM - 6:00 PM",
+    "venue": "Sarit Centre",
+    "location": "Westlands, Nairobi",
+    "coordinates": {
+      "lat": -1.2628,
+      "lng": 36.8011
+    },
+    "description": "East Africa's premier book event bringing together publishers, authors, and book lovers for exhibitions, book launches, readings, and literary discussions.",
+    "image_url": "https://source.unsplash.com/800x600/?books,reading",
+    "price_range": "Free",
+    "recurring": "Annual",
+    "website": "https://www.kenyapublishers.org",
+    "highlights": [
+      "Book Exhibitions", 
+      "Author Signings", 
+      "Children's Corner", 
+      "Poetry Readings"
+    ],
+    "tickets_available": false,
+    "organizer": "Kenya Publishers Association"
+  },
+  {
+    "id": 10,
+    "name": "Nairobi Beer Festival",
+    "category": "Food & Drink",
+    "date": "2025-08-02",
+    "end_date": "2025-08-03",
+    "time": "12:00 PM - 10:00 PM",
+    "venue": "Carnivore Grounds",
+    "location": "Langata Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3342,
+      "lng": 36.7878
+    },
+    "description": "A celebration of craft beer culture featuring local and international breweries, food pairings, brewing demonstrations, and live music performances.",
+    "image_url": "https://source.unsplash.com/800x600/?beer,festival",
+    "price_range": "2500 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobibeerfestival.com",
+    "highlights": [
+      "Craft Beer Tasting", 
+      "Food Pairings", 
+      "Brewing Workshops", 
+      "Live Music"
+    ],
+    "tickets_available": true,
+    "organizer": "Brew Bistro"
+  },
+  {
+    "id": 11,
+    "name": "Nairobi Jazz Festival",
+    "category": "Music & Entertainment",
+    "date": "2025-08-16",
+    "end_date": "2025-08-17",
+    "time": "3:00 PM - 11:00 PM",
+    "venue": "Uhuru Gardens",
+    "location": "Langata Road, Nairobi",
+    "coordinates": {
+      "lat": -1.3235,
+      "lng": 36.8243
+    },
+    "description": "An outdoor jazz event featuring renowned local and international jazz musicians performing against the backdrop of beautiful gardens. Includes food stalls and a craft market.",
+    "image_url": "https://source.unsplash.com/800x600/?jazz,music",
+    "price_range": "3000 KSh - 7000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobijazzfestival.com",
+    "highlights": [
+      "Live Jazz", 
+      "International Artists", 
+      "Food Village", 
+      "VIP Experience"
+    ],
+    "tickets_available": true,
+    "organizer": "Jazz Kenya Foundation"
+  },
+  {
+    "id": 12,
+    "name": "Maasai Mara Migration Safari",
+    "category": "Wildlife & Nature",
+    "date": "2025-08-01",
+    "end_date": "2025-10-31",
+    "time": "Full Day Activity",
+    "venue": "Maasai Mara National Reserve",
+    "location": "Narok County (5hr drive from Nairobi)",
+    "coordinates": {
+      "lat": -1.4917,
+      "lng": 35.1447
+    },
+    "description": "Experience the greatest wildlife spectacle on Earth as millions of wildebeest and zebra cross the Mara River during their annual migration. Various tour operators offer packages from Nairobi.",
+    "image_url": "https://source.unsplash.com/800x600/?safari,migration",
+    "price_range": "$$$",
+    "recurring": "Seasonal",
+    "website": "https://www.magicalkenya.com",
+    "highlights": [
+      "Great Migration", 
+      "River Crossings", 
+      "Big Five Sightings", 
+      "Hot Air Balloon Safaris"
+    ],
+    "tickets_available": true,
+    "organizer": "Various Tour Operators"
+  },
+  {
+    "id": 13,
+    "name": "Nairobi Restaurant Week",
+    "category": "Food & Drink",
+    "date": "2025-09-01",
+    "end_date": "2025-09-14",
+    "time": "Various Times",
+    "venue": "Participating restaurants across Nairobi",
+    "location": "Nairobi",
+    "coordinates": {
+      "lat": -1.2833,
+      "lng": 36.8172
+    },
+    "description": "A culinary celebration where the city's top restaurants offer special fixed-price menus, allowing food enthusiasts to experience fine dining at discounted prices.",
+    "image_url": "https://source.unsplash.com/800x600/?restaurant,dining",
+    "price_range": "1500 KSh - 3500 KSh per meal",
+    "recurring": "Annual",
+    "website": "https://www.eatout.co.ke/nairobi-restaurant-week",
+    "highlights": [
+      "Fixed Price Menus", 
+      "Fine Dining", 
+      "Culinary Discovery", 
+      "Restaurant Awards"
+    ],
+    "tickets_available": false,
+    "organizer": "EatOut Kenya"
+  },
+  {
+    "id": 14,
+    "name": "Nairobi Home Expo",
+    "category": "Business & Exhibition",
+    "date": "2025-09-25",
+    "end_date": "2025-09-28",
+    "time": "10:00 AM - 6:00 PM",
+    "venue": "KICC",
+    "location": "CBD, Nairobi",
+    "coordinates": {
+      "lat": -1.2886,
+      "lng": 36.8228
+    },
+    "description": "Kenya's largest home and construction exhibition featuring hundreds of exhibitors showcasing the latest in home design, furniture, décor, real estate, and construction technologies.",
+    "image_url": "https://source.unsplash.com/800x600/?interior,design",
+    "price_range": "500 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobihomeexpo.com",
+    "highlights": [
+      "Home Design Trends", 
+      "Property Showcase", 
+      "Interior Design Workshops", 
+      "Home Technology"
+    ],
+    "tickets_available": true,
+    "organizer": "Kenya Homes Expo Ltd"
+  },
+  {
+    "id": 15,
+    "name": "Oktoberfest Nairobi",
+    "category": "Food & Drink",
+    "date": "2025-10-03",
+    "end_date": "2025-10-05",
+    "time": "12:00 PM - 10:00 PM",
+    "venue": "German School Grounds",
+    "location": "Karen, Nairobi",
+    "coordinates": {
+      "lat": -1.3288,
+      "lng": 36.7127
+    },
+    "description": "A Bavarian-inspired beer festival with authentic German food, beer, music, and cultural activities organized by the German community in Nairobi.",
+    "image_url": "https://source.unsplash.com/800x600/?oktoberfest,beer",
+    "price_range": "2000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.oktoberfestnairobi.com",
+    "highlights": [
+      "German Beer", 
+      "Bavarian Food", 
+      "Live Music", 
+      "Cultural Activities"
+    ],
+    "tickets_available": true,
+    "organizer": "German Cultural Center"
+  },
+  {
+    "id": 16,
+    "name": "Nairobi Art Fair",
+    "category": "Arts & Culture",
+    "date": "2025-10-17",
+    "end_date": "2025-10-19",
+    "time": "10:00 AM - 7:00 PM",
+    "venue": "Sarit Centre",
+    "location": "Westlands, Nairobi",
+    "coordinates": {
+      "lat": -1.2628,
+      "lng": 36.8011
+    },
+    "description": "East Africa's premier art event showcasing paintings, sculptures, photography, and mixed media works from established and emerging artists across the region.",
+    "image_url": "https://source.unsplash.com/800x600/?art,exhibition",
+    "price_range": "1000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobiartfair.com",
+    "highlights": [
+      "Art Exhibition", 
+      "Artist Talks", 
+      "Workshops", 
+      "Collector Events"
+    ],
+    "tickets_available": true,
+    "organizer": "Nairobi Art Trust"
+  },
+  {
+    "id": 17,
+    "name": "Nairobi Marathon",
+    "category": "Sports & Fitness",
+    "date": "2025-10-26",
+    "end_date": "2025-10-26",
+    "time": "6:00 AM - 2:00 PM",
+    "venue": "Nyayo Stadium",
+    "location": "Nairobi",
+    "coordinates": {
+      "lat": -1.3019,
+      "lng": 36.8267
+    },
+    "description": "Kenya's largest road race attracting both elite and amateur runners from around the world. Features full marathon, half marathon, 10K, and wheelchair races through the streets of Nairobi.",
+    "image_url": "https://source.unsplash.com/800x600/?marathon,running",
+    "price_range": "2000 KSh - 4000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.nairobimarathon.com",
+    "highlights": [
+      "Full Marathon", 
+      "Half Marathon", 
+      "10K Race", 
+      "Children's Run"
+    ],
+    "tickets_available": true,
+    "organizer": "Athletics Kenya"
+  },
+  {
+    "id": 18,
+    "name": "Diwali Festival of Lights",
+    "category": "Arts & Culture",
+    "date": "2025-11-08",
+    "end_date": "2025-11-08",
+    "time": "5:00 PM - 11:00 PM",
+    "venue": "Various temples and community centers",
+    "location": "Parklands & Westlands, Nairobi",
+    "coordinates": {
+      "lat": -1.2631,
+      "lng": 36.8165
+    },
+    "description": "Celebrate the Hindu festival of lights with the vibrant Indian community in Nairobi. Features traditional dances, music, food, fireworks, and cultural performances.",
+    "image_url": "https://source.unsplash.com/800x600/?diwali,festival",
+    "price_range": "Free - 1000 KSh",
+    "recurring": "Annual",
+    "website": "https://www.hinducouncilkenya.org",
+    "highlights": [
+      "Light Displays", 
+      "Cultural Performances", 
+      "Indian Cuisine", 
+      "Fireworks"
+    ],
+    "tickets_available": false,
+    "organizer": "Hindu Council of Kenya"
+  },
+  {
+    "id": 19,
+    "name": "Nairobi Street Festival",
+    "category": "Arts & Culture",
+    "date": "2025-11-15",
+    "end_date": "2025-11-16",
+    "time": "10:00 AM - 10:00 PM",
+    "venue": "CBD (Closed streets)",
+    "location": "Central Nairobi",
+    "coordinates": {
+      "lat": -1.2862,
+      "lng": 36.8196
+    },
+    "description": "An urban festival reclaiming city streets for pedestrians with street performances, art installations, food stalls, and interactive activities celebrating Nairobi's urban culture.",
+    "image_url": "https://source.unsplash.com/800x600/?street,festival",
+    "price_range": "Free",
+    "recurring": "Annual",
+    "website": "https://www.placemaking.ke",
+    "highlights": [
+      "Street Performances", 
+      "Urban Art", 
+      "Street Food", 
+      "Community Activities"
+    ],
+    "tickets_available": false,
+    "organizer": "Nairobi City County"
+  },
+  {
+    "id": 20,
+    "name": "Jamhuri Day Celebrations",
+    "category": "Arts & Culture",
+    "date": "2025-12-12",
+    "end_date": "2025-12-12",
+    "time": "8:00 AM - 2:00 PM",
+    "venue": "Nyayo Stadium",
+    "location": "Nairobi",
+    "coordinates": {
+      "lat": -1.3019,
+      "lng": 36.8267
+    },
+    "description": "Kenya's Independence Day celebrations featuring military parades, cultural performances, presidential address, and festivities marking the country's independence from British colonial rule.",
+    "image_url": "https://source.unsplash.com/800x600/?celebration,independence",
+    "price_range": "Free",
+    "recurring": "Annual",
+    "website": "https://www.presidency.go.ke",
+    "highlights": [
+      "Military Parade", 
+      "Presidential Speech", 
+      "Cultural Performances", 
+      "National Celebrations"
+    ],
+    "tickets_available": false,
+    "organizer": "Government of Kenya"
+  }
+]
